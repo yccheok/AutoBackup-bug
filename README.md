@@ -40,4 +40,5 @@ Testing was done in Xiaomi A1 device, with Android 9.
 
     <Crash due to NPE>
 
+An interesting observation is that, when problem happens, App custom defined Application class will not be created. Instead, original android.app.Application will be created. This can be observed via activity.getApplication().
 
