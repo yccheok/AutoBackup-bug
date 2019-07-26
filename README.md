@@ -5,9 +5,10 @@ Testing was done in Xiaomi A1 device, with Android 9.
 
     <Run the app from Android studio>
 
-    2019-07-26 20:02:46.202 24831-24831/? I/CHEOK: CheokApplication onCreate
-    2019-07-26 20:02:46.658 24831-24831/? I/CHEOK: In MainActivity, CheokApplication = com.yocto.cheok.CheokApplication@fb79716
-    2019-07-26 20:02:46.658 24831-24831/? I/CHEOK: CheokApplication doSomething
+    2019-07-26 20:33:37.514 5269-5269/com.yocto.cheok I/CHEOK: CheokApplication onCreate
+    2019-07-26 20:33:38.070 5269-5269/com.yocto.cheok I/CHEOK: In MainActivity, CheokApplication = com.yocto.cheok.CheokApplication@fb79716
+    2019-07-26 20:33:38.071 5269-5269/com.yocto.cheok I/CHEOK: In MainActivity, this.getApplication() = com.yocto.cheok.CheokApplication@fb79716
+    2019-07-26 20:33:38.071 5269-5269/com.yocto.cheok I/CHEOK: CheokApplication doSomething
 
 
     c:\yocto>adb shell bmgr backupnow com.yocto.cheok
@@ -21,9 +22,10 @@ Testing was done in Xiaomi A1 device, with Android 9.
 
     <App close, Tap to launch the app again>
 
-    2019-07-26 20:03:30.037 25609-25609/com.yocto.cheok I/CHEOK: CheokApplication onCreate
-    2019-07-26 20:03:30.379 25609-25609/com.yocto.cheok I/CHEOK: In MainActivity, CheokApplication = com.yocto.cheok.CheokApplication@fb79716
-    2019-07-26 20:03:30.379 25609-25609/com.yocto.cheok I/CHEOK: CheokApplication doSomething
+    2019-07-26 20:35:29.494 6212-6212/? I/CHEOK: CheokApplication onCreate
+    2019-07-26 20:35:29.820 6212-6212/? I/CHEOK: In MainActivity, CheokApplication = com.yocto.cheok.CheokApplication@fb79716
+    2019-07-26 20:35:29.820 6212-6212/? I/CHEOK: In MainActivity, this.getApplication() = com.yocto.cheok.CheokApplication@fb79716
+    2019-07-26 20:35:29.820 6212-6212/? I/CHEOK: CheokApplication doSomething
 
     c:\yocto>adb shell bmgr restore com.yocto.cheok
     restoreStarting: 1 packages
@@ -33,7 +35,8 @@ Testing was done in Xiaomi A1 device, with Android 9.
 
     <App close, Tap to launch the app again>
 
-    2019-07-26 20:04:08.901 25945-25945/com.yocto.cheok I/CHEOK: In MainActivity, CheokApplication = null
+    2019-07-26 20:35:54.397 6270-6270/com.yocto.cheok I/CHEOK: In MainActivity, CheokApplication = null
+    2019-07-26 20:35:54.397 6270-6270/com.yocto.cheok I/CHEOK: In MainActivity, this.getApplication() = android.app.Application@c84226d
 
     <Crash due to NPE>
 
