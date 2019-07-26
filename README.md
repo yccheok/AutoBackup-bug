@@ -1,6 +1,7 @@
 # AutoBackup-bug
 https://stackoverflow.com/questions/57211036/why-backup-related-process-might-cause-applications-oncreate-is-not-executed
 
+Testing was done in Xiaomi A1 device, with Android 9.
 
     <Run the app from Android studio>
 
